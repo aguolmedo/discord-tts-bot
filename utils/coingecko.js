@@ -14,7 +14,6 @@ async function get_price(coinid)
   price = price.replaceAll(/:/g,' ');
   
   return price;
-  
 }
 
 module.exports = { get_price};
